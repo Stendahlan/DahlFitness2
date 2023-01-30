@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8DC63B2987AC0800DFF0F1 /* DahlFitness2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC63A2987AC0800DFF0F1 /* DahlFitness2App.swift */; };
+		FB8DC63F2987AC0A00DFF0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8DC63E2987AC0A00DFF0F1 /* Assets.xcassets */; };
+		FB8DC6422987AC0A00DFF0F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8DC6412987AC0A00DFF0F1 /* Preview Assets.xcassets */; };
+		FB8DC6502987ACAD00DFF0F1 /* GeneralCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC6492987ACAD00DFF0F1 /* GeneralCoreData.swift */; };
+		FB8DC6512987ACAD00DFF0F1 /* ExerciseCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC64A2987ACAD00DFF0F1 /* ExerciseCoreData.swift */; };
+		FB8DC6522987ACAD00DFF0F1 /* FitnessContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC64B2987ACAD00DFF0F1 /* FitnessContainer.xcdatamodeld */; };
+		FB8DC6532987ACAD00DFF0F1 /* WorkoutCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC64D2987ACAD00DFF0F1 /* WorkoutCoreData.swift */; };
+		FB8DC6542987ACAD00DFF0F1 /* WorkoutTypeCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC64E2987ACAD00DFF0F1 /* WorkoutTypeCoreData.swift */; };
+		FB8DC65C2987AD6700DFF0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8DC6572987AD6700DFF0F1 /* LaunchScreen.storyboard */; };
+		FB8DC65D2987AD6700DFF0F1 /* ExerciseNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC6582987AD6700DFF0F1 /* ExerciseNotesView.swift */; };
+		FB8DC65E2987AD6700DFF0F1 /* WorkoutTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC6592987AD6700DFF0F1 /* WorkoutTypeView.swift */; };
+		FB8DC65F2987AD6700DFF0F1 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC65A2987AD6700DFF0F1 /* WorkoutView.swift */; };
+		FB8DC6602987AD6700DFF0F1 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC65B2987AD6700DFF0F1 /* ExerciseView.swift */; };
+		FB8DC6652987ADE600DFF0F1 /* ExerciseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC6622987ADE600DFF0F1 /* ExerciseRowView.swift */; };
+		FB8DC6662987ADE600DFF0F1 /* WorkoutTypeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC6632987ADE600DFF0F1 /* WorkoutTypeRowView.swift */; };
+		FB8DC6672987ADE600DFF0F1 /* WorkoutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC6642987ADE600DFF0F1 /* WorkoutRowView.swift */; };
+		FB8DC66C2987AE1300DFF0F1 /* WorkoutPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC6692987AE1300DFF0F1 /* WorkoutPopView.swift */; };
+		FB8DC66D2987AE1300DFF0F1 /* WorkoutTypePopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC66A2987AE1300DFF0F1 /* WorkoutTypePopView.swift */; };
+		FB8DC66E2987AE1300DFF0F1 /* ExercisePopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8DC66B2987AE1300DFF0F1 /* ExercisePopView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB8DC6372987AC0800DFF0F1 /* DahlFitness2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DahlFitness2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8DC63A2987AC0800DFF0F1 /* DahlFitness2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DahlFitness2App.swift; sourceTree = "<group>"; };
+		FB8DC63E2987AC0A00DFF0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8DC6412987AC0A00DFF0F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB8DC6492987ACAD00DFF0F1 /* GeneralCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralCoreData.swift; sourceTree = "<group>"; };
+		FB8DC64A2987ACAD00DFF0F1 /* ExerciseCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCoreData.swift; sourceTree = "<group>"; };
+		FB8DC64C2987ACAD00DFF0F1 /* SpecificWorkoutsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpecificWorkoutsContainer.xcdatamodel; sourceTree = "<group>"; };
+		FB8DC64D2987ACAD00DFF0F1 /* WorkoutCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCoreData.swift; sourceTree = "<group>"; };
+		FB8DC64E2987ACAD00DFF0F1 /* WorkoutTypeCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTypeCoreData.swift; sourceTree = "<group>"; };
+		FB8DC6572987AD6700DFF0F1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB8DC6582987AD6700DFF0F1 /* ExerciseNotesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseNotesView.swift; sourceTree = "<group>"; };
+		FB8DC6592987AD6700DFF0F1 /* WorkoutTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTypeView.swift; sourceTree = "<group>"; };
+		FB8DC65A2987AD6700DFF0F1 /* WorkoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		FB8DC65B2987AD6700DFF0F1 /* ExerciseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		FB8DC6622987ADE600DFF0F1 /* ExerciseRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseRowView.swift; sourceTree = "<group>"; };
+		FB8DC6632987ADE600DFF0F1 /* WorkoutTypeRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTypeRowView.swift; sourceTree = "<group>"; };
+		FB8DC6642987ADE600DFF0F1 /* WorkoutRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutRowView.swift; sourceTree = "<group>"; };
+		FB8DC6692987AE1300DFF0F1 /* WorkoutPopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutPopView.swift; sourceTree = "<group>"; };
+		FB8DC66A2987AE1300DFF0F1 /* WorkoutTypePopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTypePopView.swift; sourceTree = "<group>"; };
+		FB8DC66B2987AE1300DFF0F1 /* ExercisePopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisePopView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8DC6342987AC0800DFF0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8DC62E2987AC0800DFF0F1 = {
+			isa = PBXGroup;
+			children = (
+				FB8DC6392987AC0800DFF0F1 /* DahlFitness2 */,
+				FB8DC6382987AC0800DFF0F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8DC6382987AC0800DFF0F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DC6372987AC0800DFF0F1 /* DahlFitness2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8DC6392987AC0800DFF0F1 /* DahlFitness2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DC6482987ACAD00DFF0F1 /* CoreData2 */,
+				FB8DC6562987AD6700DFF0F1 /* RegularViews2 */,
+				FB8DC6612987ADE600DFF0F1 /* RowViews2 */,
+				FB8DC6682987AE1300DFF0F1 /* PopUpViews2 */,
+				FB8DC63E2987AC0A00DFF0F1 /* Assets.xcassets */,
+				FB8DC6402987AC0A00DFF0F1 /* Preview Content */,
+			);
+			path = DahlFitness2;
+			sourceTree = "<group>";
+		};
+		FB8DC6402987AC0A00DFF0F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DC6412987AC0A00DFF0F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB8DC6482987ACAD00DFF0F1 /* CoreData2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DC64B2987ACAD00DFF0F1 /* FitnessContainer.xcdatamodeld */,
+				FB8DC6492987ACAD00DFF0F1 /* GeneralCoreData.swift */,
+				FB8DC64E2987ACAD00DFF0F1 /* WorkoutTypeCoreData.swift */,
+				FB8DC64D2987ACAD00DFF0F1 /* WorkoutCoreData.swift */,
+				FB8DC64A2987ACAD00DFF0F1 /* ExerciseCoreData.swift */,
+			);
+			name = CoreData2;
+			path = ../../../Downloads/Swift/DahlFitness/Directory/CoreData2;
+			sourceTree = "<group>";
+		};
+		FB8DC6562987AD6700DFF0F1 /* RegularViews2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DC6572987AD6700DFF0F1 /* LaunchScreen.storyboard */,
+				FB8DC63A2987AC0800DFF0F1 /* DahlFitness2App.swift */,
+				FB8DC6592987AD6700DFF0F1 /* WorkoutTypeView.swift */,
+				FB8DC65A2987AD6700DFF0F1 /* WorkoutView.swift */,
+				FB8DC65B2987AD6700DFF0F1 /* ExerciseView.swift */,
+				FB8DC6582987AD6700DFF0F1 /* ExerciseNotesView.swift */,
+			);
+			name = RegularViews2;
+			path = ../../../Downloads/Swift/DahlFitness/Directory/RegularViews2;
+			sourceTree = "<group>";
+		};
+		FB8DC6612987ADE600DFF0F1 /* RowViews2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DC6622987ADE600DFF0F1 /* ExerciseRowView.swift */,
+				FB8DC6632987ADE600DFF0F1 /* WorkoutTypeRowView.swift */,
+				FB8DC6642987ADE600DFF0F1 /* WorkoutRowView.swift */,
+			);
+			name = RowViews2;
+			path = ../../../Downloads/Swift/DahlFitness/Directory/RowViews2;
+			sourceTree = "<group>";
+		};
+		FB8DC6682987AE1300DFF0F1 /* PopUpViews2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DC6692987AE1300DFF0F1 /* WorkoutPopView.swift */,
+				FB8DC66A2987AE1300DFF0F1 /* WorkoutTypePopView.swift */,
+				FB8DC66B2987AE1300DFF0F1 /* ExercisePopView.swift */,
+			);
+			name = PopUpViews2;
+			path = ../../../Downloads/Swift/DahlFitness/Directory/PopUpViews2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8DC6362987AC0800DFF0F1 /* DahlFitness2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8DC6452987AC0A00DFF0F1 /* Build configuration list for PBXNativeTarget "DahlFitness2" */;
+			buildPhases = (
+				FB8DC6332987AC0800DFF0F1 /* Sources */,
+				FB8DC6342987AC0800DFF0F1 /* Frameworks */,
+				FB8DC6352987AC0800DFF0F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DahlFitness2;
+			productName = DahlFitness2;
+			productReference = FB8DC6372987AC0800DFF0F1 /* DahlFitness2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8DC62F2987AC0800DFF0F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FB8DC6362987AC0800DFF0F1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB8DC6322987AC0800DFF0F1 /* Build configuration list for PBXProject "DahlFitness2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8DC62E2987AC0800DFF0F1;
+			productRefGroup = FB8DC6382987AC0800DFF0F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8DC6362987AC0800DFF0F1 /* DahlFitness2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8DC6352987AC0800DFF0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DC65C2987AD6700DFF0F1 /* LaunchScreen.storyboard in Resources */,
+				FB8DC6422987AC0A00DFF0F1 /* Preview Assets.xcassets in Resources */,
+				FB8DC63F2987AC0A00DFF0F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8DC6332987AC0800DFF0F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DC66C2987AE1300DFF0F1 /* WorkoutPopView.swift in Sources */,
+				FB8DC6522987ACAD00DFF0F1 /* FitnessContainer.xcdatamodeld in Sources */,
+				FB8DC63B2987AC0800DFF0F1 /* DahlFitness2App.swift in Sources */,
+				FB8DC6652987ADE600DFF0F1 /* ExerciseRowView.swift in Sources */,
+				FB8DC6532987ACAD00DFF0F1 /* WorkoutCoreData.swift in Sources */,
+				FB8DC65F2987AD6700DFF0F1 /* WorkoutView.swift in Sources */,
+				FB8DC6502987ACAD00DFF0F1 /* GeneralCoreData.swift in Sources */,
+				FB8DC65E2987AD6700DFF0F1 /* WorkoutTypeView.swift in Sources */,
+				FB8DC66E2987AE1300DFF0F1 /* ExercisePopView.swift in Sources */,
+				FB8DC6662987ADE600DFF0F1 /* WorkoutTypeRowView.swift in Sources */,
+				FB8DC66D2987AE1300DFF0F1 /* WorkoutTypePopView.swift in Sources */,
+				FB8DC6672987ADE600DFF0F1 /* WorkoutRowView.swift in Sources */,
+				FB8DC6602987AD6700DFF0F1 /* ExerciseView.swift in Sources */,
+				FB8DC6542987ACAD00DFF0F1 /* WorkoutTypeCoreData.swift in Sources */,
+				FB8DC65D2987AD6700DFF0F1 /* ExerciseNotesView.swift in Sources */,
+				FB8DC6512987ACAD00DFF0F1 /* ExerciseCoreData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB8DC6432987AC0A00DFF0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB8DC6442987AC0A00DFF0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8DC6462987AC0A00DFF0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DahlFitness2/Preview Content\"";
+				DEVELOPMENT_TEAM = 672BVCX6WN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andre-Stendahl.DahlFitness2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB8DC6472987AC0A00DFF0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DahlFitness2/Preview Content\"";
+				DEVELOPMENT_TEAM = 672BVCX6WN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andre-Stendahl.DahlFitness2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8DC6322987AC0800DFF0F1 /* Build configuration list for PBXProject "DahlFitness2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8DC6432987AC0A00DFF0F1 /* Debug */,
+				FB8DC6442987AC0A00DFF0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8DC6452987AC0A00DFF0F1 /* Build configuration list for PBXNativeTarget "DahlFitness2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8DC6462987AC0A00DFF0F1 /* Debug */,
+				FB8DC6472987AC0A00DFF0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB8DC64B2987ACAD00DFF0F1 /* FitnessContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB8DC64C2987ACAD00DFF0F1 /* SpecificWorkoutsContainer.xcdatamodel */,
+			);
+			currentVersion = FB8DC64C2987ACAD00DFF0F1 /* SpecificWorkoutsContainer.xcdatamodel */;
+			path = FitnessContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB8DC62F2987AC0800DFF0F1 /* Project object */;
+}
